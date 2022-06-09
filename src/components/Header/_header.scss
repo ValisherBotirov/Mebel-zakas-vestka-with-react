@@ -1,0 +1,26 @@
+.header {
+  padding: 40px 0;
+  &--items {
+    gap: 30px;
+  }
+  &--item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    list-style: none;
+
+    &__btn {
+      border: 1px solid #242424;
+      border-radius: 7px;
+      padding: 10px 16px;
+    }
+  }
+  &--logo {
+    list-style: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+  }
+}

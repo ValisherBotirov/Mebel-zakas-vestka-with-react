@@ -1,0 +1,20 @@
+.banner {
+  &--title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+  }
+
+  &--text {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 39px;
+  }
+
+  &--btn {
+    width: 200px;
+    height: 60px;
+    background: #898989;
+    border-radius: 7px;
+  }
+}
